@@ -1,0 +1,5 @@
+In this project, We used adc_dma for get voltage from adc channels and send data to USART2_dma
+Note:
+ADC clock need less than 14MHz
+Function sprinf(): In this function need %u not %d because ADC_data we used type uint32_t
+ADC_SamplingTime need > 28.5 cycles because i choose ADC_clock equal 12MHz(Really i dont know why < this samples time my UART dont work

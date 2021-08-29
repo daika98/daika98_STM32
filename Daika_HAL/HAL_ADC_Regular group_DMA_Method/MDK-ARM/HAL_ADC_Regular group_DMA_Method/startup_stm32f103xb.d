@@ -1,0 +1,1 @@
+hal_adc_regular group_dma_method\startup_stm32f103xb.o: startup_stm32f103xb.s
